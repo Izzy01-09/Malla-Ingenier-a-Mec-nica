@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Interactiva - Ing. Mecánica</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <h1>Malla Interactiva - Ingeniería Mecánica</h1>
+    <div class="progreso">
+      <span id="creditos-aprobados">0</span> / 166 créditos completados
+      <div class="barra">
+        <div id="barra-progreso"></div>
+      </div>
+      <p id="mensaje-saber"></p>
+      <p id="mensaje-seminario"></p>
+    </div>
+  </div>
+
+  <div class="semestres-container">
+    <!-- Semestres del 1 al 10 se insertan desde JS -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
